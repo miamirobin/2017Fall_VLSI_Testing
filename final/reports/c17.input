@@ -1,0 +1,256 @@
+
+#Circuit Summary:
+#---------------
+#number of inputs = 5
+#number of outputs = 2
+#number of gates = 6
+#number of wires = 11
+#atpg: cputime for reading in circuit ../sample_circuits/c17.ckt: 0.0s 0.0s
+#atpg: cputime for levelling circuit ../sample_circuits/c17.ckt: 0.0s 0.0s
+#atpg: cputime for rearranging gate inputs ../sample_circuits/c17.ckt: 0.0s 0.0s
+#atpg: cputime for creating dummy nodes ../sample_circuits/c17.ckt: 0.0s 0.0s
+#number of equivalent faults = 28
+#atpg: cputime for generating fault list ../sample_circuits/c17.ckt: 0.0s 0.0s
+primary input: 1GAT(0)
+fault_type = s-a-1
+detection flag = aborted
+
+T'001xx'
+T'0111x'
+
+primary input: 1GAT(0)
+fault_type = s-a-0
+detection flag = aborted
+
+T'101xx'
+T'1111x'
+
+primary input: 2GAT(1)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x000x'
+T'0010x'
+T'10100'
+T'x001x'
+
+primary input: 2GAT(1)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x100x'
+T'0110x'
+T'11100'
+T'x101x'
+
+gate: g2 ;input wire name: 3GAT(2)
+fault_type = s-a-1
+detection flag = aborted
+
+T'100xx'
+
+gate: g1 ;input wire name: 3GAT(2)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x101x'
+T'x0011'
+
+primary input: 3GAT(2)
+fault_type = s-a-1
+detection flag = aborted
+
+T'100xx'
+T'11010'
+T'11011'
+T'0101x'
+T'00011'
+
+primary input: 3GAT(2)
+fault_type = s-a-0
+detection flag = aborted
+
+T'101xx'
+T'11110'
+T'11111'
+T'0111x'
+T'00111'
+
+primary input: 6GAT(3)
+fault_type = s-a-1
+detection flag = aborted
+
+T'0110x'
+T'11100'
+T'11101'
+T'x0101'
+
+primary input: 6GAT(3)
+fault_type = s-a-0
+detection flag = aborted
+
+T'0111x'
+T'11110'
+T'11111'
+T'x0111'
+
+primary input: 7GAT(4)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x0x00'
+T'x0010'
+
+primary input: 7GAT(4)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x0x01'
+T'x0011'
+
+gate: g4 ;input wire name: 11GAT(5)
+fault_type = s-a-1
+detection flag = aborted
+
+T'0111x'
+T'1111x'
+
+
+gate: g1 ;output wire name: 11GAT(5)
+fault_type = s-a-1
+detection flag = aborted
+
+T'0111x'
+T'11110'
+T'11111'
+T'x0111'
+
+gate: g1 ;output wire name: 11GAT(5)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x100x'
+T'0110x'
+T'11100'
+T'11101'
+T'x0x01'
+T'x101x'
+T'x0011'
+
+gate: g2 ;output wire name: 10GAT(6)
+fault_type = s-a-1
+detection flag = aborted
+
+T'101xx'
+T'1111x'
+
+gate: g2 ;output wire name: 10GAT(6)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x00xx'
+T'001xx'
+T'0111x'
+
+gate: g3 ;output wire name: 19GAT(7)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x0x01'
+T'x0011'
+
+gate: g3 ;output wire name: 19GAT(7)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x0xx0'
+T'x1110'
+T'xx111'
+
+gate: g6 ;input wire name: 16GAT(8)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x100x'
+T'0110x'
+T'x101x'
+
+gate: g5 ;input wire name: 16GAT(8)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x1x00'
+T'x1010'
+
+gate: g4 ;output wire name: 16GAT(8)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x100x'
+T'0110x'
+T'11100'
+T'x101x'
+
+gate: g4 ;output wire name: 16GAT(8)
+fault_type = s-a-0
+detection flag = aborted
+
+T'x00xx'
+T'001xx'
+T'101x0'
+T'10111'
+T'x111x'
+
+gate: g5 ;output wire name: 23GAT(9)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x0xx0'
+T'x0111'
+T'x111x'
+
+gate: g5 ;output wire name: 23GAT(9)
+fault_type = s-a-0
+detection flag = aborted
+
+T'xxx01'
+T'x1x00'
+T'xx011'
+T'x1010'
+
+gate: g6 ;output wire name: 22GAT(10)
+fault_type = s-a-1
+detection flag = aborted
+
+T'x00xx'
+T'001xx'
+T'0111x'
+
+gate: g6 ;output wire name: 22GAT(10)
+fault_type = s-a-0
+detection flag = aborted
+
+T'1x1xx'
+T'110xx'
+T'01x0x'
+T'0101x'
+
+
+#number of aborted faults = 0
+
+#number of redundant faults = 0
+
+#number of calling podem1 = 28
+
+#total number of backtracks = 128
+
+#FAULT COVERAGE RESULTS :
+#number of test vectors = 28
+#total number of gate faults = 34
+#total number of detected faults = 34
+#total gate fault coverage = 100.00%
+#number of equivalent gate faults = 28
+#number of equivalent detected faults = 28
+#equivalent gate fault coverage = 100.00%
+
+#atpg: cputime for test pattern generation ../sample_circuits/c17.ckt: 0.0s 0.0s

@@ -1,0 +1,30 @@
+gate: g6 ;input wire name: 16GAT(8)
+fault_type = s-a-1
+detection flag = aborted
+fault no. = 20
+
+gate: g5 ;input wire name: 16GAT(8)
+fault_type = s-a-1
+detection flag = aborted
+fault no. = 21
+
+gate: g5 ;output wire name: 23GAT(9)
+fault_type = s-a-1
+detection flag = aborted
+fault no. = 24
+
+gate: g5 ;output wire name: 23GAT(9)
+fault_type = s-a-0
+detection flag = aborted
+fault no. = 25
+
+gate: g6 ;output wire name: 22GAT(10)
+fault_type = s-a-1
+detection flag = aborted
+fault no. = 26
+
+gate: g6 ;output wire name: 22GAT(10)
+fault_type = s-a-0
+detection flag = aborted
+fault no. = 27
+
