@@ -1,2 +1,11 @@
-*.max linguist-language=c
-*.c linguist-language=c++
+PA1/sample_circuits/* linguist-documentation=false
+PA2/sample_circuits/* linguist-documentation=false
+PA2/reports/* linguist-documentation=false
+PA2/doc/* linguist-documentation=false
+PA3/sample_circuits/* linguist-documentation=false
+PA3/tdf_patterns/* linguist-documentation=false
+PA3/doc/* linguist-documentation=false
+final/sample_circuits/* linguist-documentation=false
+final/tdf_patterns/* linguist-documentation=false
+final/doc/* linguist-documentation=false
+final/reports/* linguist-documentation=false
