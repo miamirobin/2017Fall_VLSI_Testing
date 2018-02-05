@@ -1,9 +1,4 @@
 
-
-
-
-
-
 ./atpg -tdfatpg -ndet 1 ../sample_circuits/adder.ckt > ../tdf_patterns/adder.pat
 ./atpg -ndet 1 -tdfsim ../tdf_patterns/adder.pat ../sample_circuits/adder.ckt
 
